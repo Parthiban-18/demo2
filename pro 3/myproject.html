@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MOVIE COLLECTION</title>
+        <link rel="stylesheet" href="myproject.css">
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        
+    </head>
+    <body>
+        <div class="full-page">
+            <div class="navbar">
+                <div>
+                    <a href='myproject.html'> <i class='bx bx-movie-play bx-tada main-color'></i>AEST MOVIES
+                </div>
+                <nav>
+                    <ul id='MenuItems'>
+                        <li><a href='#'>HOME</a></li>
+                        <li><a href="action.html">ACTION</a></li>
+                        <li><a href="sciencefiction.html">SCIENCE FICTION</a></li>
+                        <li><a href="thriller.html">THRILLER</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">LOGIN</button></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id='login-form'class='login-page'>
+                <div class="form-box">
+                    <div class='button-box'>
+                        <div id='btn'></div>
+                        <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+                        <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+                    </div>
+                    <form id='login' class='input-group-login'>
+                        <input type='email'class='input-field'placeholder='Email Id' required >
+                <input type='password'class='input-field'placeholder='Enter Password' required>
+                <input type='checkbox'class='check-box'><span>Remember me</span>
+                <button type='submit'class='submit-btn'>Log in</button>
+             </form>
+             <form id='register' class='input-group-register'>
+                 <input type='text'class='input-field'placeholder='First Name' required>
+                 <input type='text'class='input-field'placeholder='Last Name ' required>
+                 <input type='email'class='input-field'placeholder='Email Id' required>
+                 <input type='password'class='input-field'placeholder='Enter Password' required>
+                 <input type='password'class='input-field'placeholder='Confirm Password'  required>
+                 <input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+                        <button type='submit'class='submit-btn'>Register</button>
+                 </form>
+                </div>
+            </div>
+            <script src="mypy.js"></script>
+        <script src="mypyrj.js"></script>
+        </div>
+    </body>
+    </html>
+    
+   
